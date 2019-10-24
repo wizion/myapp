@@ -1,0 +1,74 @@
+class AddFielsToEmails < ActiveRecord::Migration[6.0]
+  def change
+
+				add_column :emails, :name, :string
+		add_column :emails, :task_link, :string
+		add_column :emails, :task_name, :string
+		add_column :emails, :date_of_beginning, :date
+		add_column :emails, :date_of_expiration, :date
+		add_column :emails, :money_value, :integer
+		add_column :emails, :service_tax_value, :integer
+		add_column :emails, :place_address, :string
+		add_column :emails, :payment_via, :string
+		add_column :emails, :ask_from_support, :string
+		add_column :emails, :create_task_link, :string
+		add_column :emails, :become_a_performer, :string
+		add_column :emails, :faq_link, :string
+		add_column :emails, :unsubscribe_url, :string
+		add_column :emails, :alias, :string
+		add_column :emails, :performers_name, :string
+		add_column :emails, :like_value, :integer
+		add_column :emails, :dislike_value, :integer
+		add_column :emails, :place_in_rate, :integer
+		add_column :emails, :place_in_rate_cat_name, :text
+		add_column :emails, :users_price_for_task, :text
+		add_column :emails, :performers_text, :text
+		add_column :emails, :chat_link, :text
+		add_column :emails, :user_avatar, :text
+		add_column :emails, :recepient_template_link, :text
+		add_column :emails, :model_contract, :text
+		add_column :emails, :becouse, :text
+		add_column :emails, :customer_name, :text
+		add_column :emails, :status, :text
+		add_column :emails, :task_description, :text
+		add_column :emails, :rating, :text
+		add_column :emails, :category_name, :text
+		add_column :emails, :money_value, :text
+  			add_column :emails, :task_list_link, :text
+		add_column :emails, :email_confirmation_link, :text
+		add_column :emails, :cabinet_link, :text
+		add_column :emails, :packet_name, :text
+		add_column :emails, :days_of_packet, :text
+		add_column :emails, :date_activation, :text
+		add_column :emails, :deal_list, :text
+		add_column :emails, :place_address_img_link, :text
+		add_column :emails, :user_name, :text
+		add_column :emails, :site_link, :text
+		add_column :emails, :busines_link, :text
+		add_column :emails, :courier_services, :text
+		add_column :emails, :cargo_transportation, :text
+		add_column :emails, :housekeeping_and_help, :text
+		add_column :emails, :virtual_assistant, :text
+		add_column :emails, :events_and_promotions, :text
+		add_column :emails, :design, :text
+		add_column :emails, :all_categories, :text
+		add_column :emails, :from_money_value, :text
+		add_column :emails, :post_item, :text
+		add_column :emails, :link_item, :text
+		add_column :emails, :post_description, :text
+		add_column :emails, :post_title, :text
+		add_column :emails, :main_title, :text
+		add_column :emails, :first_post_link, :text
+		add_column :emails, :service_code, :text
+		add_column :emails, :service_name, :text
+		add_column :emails, :service_cost, :text
+		add_column :emails, :tax_cost, :text
+		add_column :emails, :kredits_money, :text
+		add_column :emails, :total_cost, :text
+		add_column :emails, :all_services_cost, :text
+		add_column :emails, :transaction_number, :text
+		add_column :emails, :paid_money, :text
+		add_column :emails, :balance_owed, :text
+
+  end
+end
