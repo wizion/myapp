@@ -1,0 +1,2 @@
+class RuEmailsController < ApplicationController
+end
